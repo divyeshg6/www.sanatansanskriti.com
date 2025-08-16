@@ -1,0 +1,24 @@
+{
+  "name": "code-file-generator",
+  "version": "1.0.0",
+  "description": "A web application for generating, validating, formatting, and downloading code files",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test:e2e": "cd tests && npm run test:e2e",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install && cd ../tests && npm install"
+  },
+  "keywords": ["code-generator", "file-download", "web-app", "code-editor"],
+  "author": "Code File Generator Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
