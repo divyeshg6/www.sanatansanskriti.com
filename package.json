@@ -1,0 +1,46 @@
+{
+  "name": "ai-tools-blackboxai",
+  "version": "1.0.0",
+  "description": "AI Tools Installation Suite for BlackBoxAI Integration",
+  "main": "index.js",
+  "scripts": {
+    "install-ai-tools": "node install-ai-tools.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "blackbox",
+    "machine-learning",
+    "development-tools",
+    "automation"
+  ],
+  "author": "AI Tools Suite",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "nodemon": "^3.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.45.0"
+  },
+  "globalDependencies": {
+    "@ai-sdk/cli": "latest",
+    "openai-cli": "latest",
+    "@anthropic-ai/cli": "latest",
+    "codeium": "latest",
+    "tabnine": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ai-tools/blackboxai-integration"
+  },
+  "bugs": {
+    "url": "https://github.com/ai-tools/blackboxai-integration/issues"
+  },
+  "homepage": "https://github.com/ai-tools/blackboxai-integration#readme"
+}
